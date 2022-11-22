@@ -1,0 +1,706 @@
+:root {
+    /*COLOR PALETTE*/
+    --white: #FFF;
+    --ash-white: #FAFAFA;
+    --light-gray: #707070;
+    --dark-gray: #191919;
+    --yellow: #fede07;
+    --gold: #ceb290;
+    --light-green: #5d9568;
+    --green: #20871b;
+    --dark-green: #236120;
+  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    margin: 0; 
+
+    background-color: var(--ash-white);
+}
+
+
+/*********************************/
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    z-index: 1;
+
+    margin: 0 0 0 50px;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    background-color: var(--dark-gray);
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -18px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 18px;
+  }
+  .menu__box {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -300%;
+    width: 500px;
+    height: auto;
+    margin: 0;
+    padding: 175px 0;
+    list-style: none;
+    background-color: var(--dark-green);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+    border-radius: 0 0 75px 0;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 75px;
+    color: var(--ash-white);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: var(--green);
+  }
+
+/********************************/
+
+.header{
+    width:100%;
+    height: 200px;
+    background-color: var(--yellow);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-container{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 200px;
+    margin: auto;
+
+    padding-left: 125px;
+}
+
+.logo-img{
+    height: 200px;
+}
+
+.cart{
+    margin: auto 50px auto 0;
+}
+
+.cart svg{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    fill: var(--dark-gray);
+    stroke: var(--dark-gray)!important;
+}
+
+.cart svg:hover{
+    fill: var(--dark-green);
+    stroke: var(--dark-green)!important;
+}
+
+.hero-section{
+    width:100%;
+    margin: auto;
+    background-color: var(--ash-white);
+}
+
+.hero-section-container{
+    width: 100%;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+
+    margin: 0 0 40px 0;
+}
+
+.hero-nav{
+    width: 960px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-nav h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    color: var(--light-gray);
+    letter-spacing: 3px;
+
+    margin: 0 20px 0 0;
+}
+
+
+
+.down-btn{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    margin: -20px auto;
+    height: 56px;
+    color: var(--dark-green);
+    text-decoration: none;
+}
+
+.down-btn:hover{
+    color: var(--yellow);
+}
+
+.down-btn:active{
+    color: var(--light-green);
+}
+
+.prod-btn,
+.prod-btn:visited,
+.gtk-btn,
+.gtk-btn:visited{
+    width: 300px;
+    height: 60px;
+    background-color: var(--dark-green);
+
+    border-radius: 15px;
+    margin: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--white);
+    text-decoration: none;
+}
+
+.prod-btn:hover,
+.gtk-btn:hover{
+    background-color: var(--light-green);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.prod-btn:active,
+.gtk-btn:active{
+    background-color: var(--green);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.prod-btn p,
+.gtk-btn p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    margin: 0 auto;
+    height: 56px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.hero-section a:nth-of-type(2){
+    margin-top: 40px;
+}
+
+.hero-section a:nth-of-type(2),
+.hero-section a:nth-of-type(3){
+    align-self: flex-end;
+}
+
+
+#product-section{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: auto auto 200px auto; 
+}
+
+.product-categ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-categ img{
+    width: 600px;
+}
+
+.product-categ-texts{
+    width: 300px;
+}
+
+.product-categ-texts h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    margin: 0 auto;
+    height: 56px;
+    letter-spacing: 2px;
+    color: var(--light-gray);
+}
+
+.product-categ-texts h3{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    height: 56px;
+    letter-spacing: 1px;
+    color: var(--light-gray);
+}
+
+
+.get-to-know{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000000, #011500, #000000);
+}
+
+.get-to-know img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    margin: 0%;
+
+    opacity: 0.2;
+}
+
+.gtk-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+}
+
+.gtk-texts h3{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 36px;
+    margin: 0 auto;
+    height: 56px;
+    letter-spacing: 1px;
+    color: var(--ash-white);
+}
+
+
+
+
+
+/****************FOOTER*****************/
+
+
+.footer{
+    width:100%;
+    height: 200px;
+    background-color: var(--yellow);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 24px;
+}
+
+.footer-container{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-credits{
+    justify-self: center;
+    margin: auto;
+}
+
+.instagram{
+    margin: auto 0 auto 50px;
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.instagram svg{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 0;
+}
+
+.instagram:link,
+.instagram:visited{
+    color: var(--dark-gray);
+    text-decoration: none;
+}
+
+.instagram:hover{
+    color: var(--dark-green);
+    text-decoration: none;
+}
+
+.instagram:hover svg{
+    fill: var(--dark-green);
+}
+
+/********************************/
+
+.about-main-section{
+    width: 960px;
+    height: 880px;
+    background-color: var(--ash-white);
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+
+    border-radius: 75px;
+
+    margin: 60px 0;
+}
+
+.about-text p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: var(--light-gray);
+    letter-spacing: 3px;
+
+    margin: 0;
+}
+
+.about-text span{
+    color: var(--light-green);
+}
+
+/********************************/
+
+.na-main-section,
+.cart-main-section{
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: var(--ash-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.na-main-section h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    color: var(--light-gray);
+    letter-spacing: 3px;
+    text-align: center;
+
+    margin: 0;
+    padding: 50px 0;
+}
+
+.na-rows{
+    width: 1160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 40px auto 0 auto;
+}
+
+.na-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+}
+
+.na-product img{
+    width: 300px;
+    border-radius: 75px;
+
+    margin: 0 0 10px 0;
+}
+
+.na-product p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+}
+
+.na-product .title{
+    color: var(--dark-gray);
+}
+
+.na-product .price{
+    color: var(--light-gray);
+}
+
+.add-to-cart-btn,
+.add-to-cart-btn:visited{
+    width: 260px;
+    height: 60px;
+    background-color: var(--dark-green);
+
+    border-radius: 15px;
+    margin: 10px 0 80px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--white);
+    text-decoration: none;
+}
+
+.add-to-cart-btn:hover{
+    background-color: var(--light-green);
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:active{
+    background-color: var(--green);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.add-to-cart-btn p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    margin: 0 auto;
+    height: 56px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+/*********************************/
+
+.cart-container{
+    width:1120px;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 75px auto;
+
+    border-style:solid;
+    border-color: var(--dark-green);
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.cart-items{
+    width:620px;
+    height: 580px;
+    overflow-y: scroll;
+
+    border-style:solid;
+    border-color: var(--dark-green);
+    border-width: 0 2px 0 0;
+
+    -webkit-mask: linear-gradient(to bottom,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 1) 10%,
+                rgba(255, 255, 255, 1) 90%,
+                rgba(255, 255, 255, 0) 100%);
+}
+
+.cart-product{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 100px auto 100px auto;
+}
+
+.cart-product img{
+    width: 300px;
+    border-radius: 55px;
+
+    margin: 0 auto 10px auto;
+}
+
+.cart-product p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+}
+
+.cart-product .title{
+    color: var(--dark-gray);
+}
+
+.cart-product .price,
+.cart-product .quantity{
+    color: var(--light-gray);
+}
+
+.cart-check-out{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.co-card{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+
+    background-color: var(--yellow);
+}
+
+.co-card-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.co-card-texts p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 28px;
+    
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0;
+
+    color: var(--dark-gray);
+}
+
+.check-out-btn,
+.check-out-btn:visited{
+    width: 260px;
+    height: 60px;
+    background-color: var(--dark-green);
+
+    border-radius: 15px;
+    margin: 20px 0 0 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--white);
+    text-decoration: none;
+}
+
+.check-out-btn:hover{
+    background-color: var(--light-green);
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.check-out-btn:active{
+    background-color: var(--green);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.check-out-btn p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 46px;
+    margin: 0 auto;
+    height: 56px;
+    color: var(--white);
+    text-decoration: none;
+}
