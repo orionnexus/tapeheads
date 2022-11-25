@@ -1,0 +1,2039 @@
+:root {
+    /*COLOR PALETTE*/
+    --white: #FFF;
+    --ash-white: #FAFAFA;
+    --light-gray: #707070;
+    --dark-gray: #191919;
+    --yellow: #fede07;
+    --gold: #ceb290;
+    --light-green: #5d9568;
+    --green: #20871b;
+    --dark-green: #236120;
+  
+}
+
+@media (max-width: 1200px) {
+
+    /******************NEW ARRIVAL AND VINYL RECORDS PAGE********************/
+
+    .na-rows{
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 40px auto 0 auto;
+    }
+
+    .add-to-cart-btn,
+    .add-to-cart-btn:visited{
+        width: 260px;
+        height: 60px;
+
+        margin: 10px 0 80px 0;
+    }
+
+    .add-to-cart-btn p{
+        font-size: 46px;
+        height: 56px;
+    }
+
+
+    /********************************/
+
+    /******************CART PAGE********************/
+
+    .cart-container{
+        width:960px;
+        height: 580px;
+    }
+
+    .cart-items{
+        width:400px;
+        height: 580px;
+    }
+
+    .cart-product{
+        width:300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    
+        margin: 100px auto 100px auto;
+    }
+
+    .cart-product img{
+        width: 300px;
+        border-radius: 55px;
+    
+        margin: 0 auto 10px auto;
+    }
+
+    .cart-product p{
+        font-size: 20px;
+    }
+
+    .cart-check-out{
+        width: 400px;
+    }
+
+    .co-card{
+        width: 400px;
+        height: 500px;
+    }
+
+    /********************************/
+}
+
+@media (max-width: 1080px) {
+
+    .hero-nav{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-nav h1{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 46px;
+        line-height: 46px;
+        color: var(--light-gray);
+        letter-spacing: 3px;
+        text-align: center;
+    
+        margin: 0;
+
+        width:600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #product-section{
+        width: 720px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        margin: 60px auto 200px auto; 
+    }
+
+    .product-categ img{
+        width: 500px;
+    }
+
+    .product-categ-texts{
+        width: 200px;
+    }
+
+    .product-categ-texts h2{
+        font-size: 36px;
+        margin: 0 auto;
+        height: 46px;
+        letter-spacing: 2px;
+        color: var(--light-gray);
+    }
+    
+    .product-categ-texts h3{
+        font-size: 18px;
+        margin: 0 auto;
+        height: 36px;
+        letter-spacing: 1px;
+        color: var(--light-gray);
+    }
+
+    .prod-btn,
+    .prod-btn:visited,
+    .gtk-btn,
+    .gtk-btn:visited{
+        width: 200px;
+        height: 50px;
+
+        margin: 10px 0;
+    }
+
+    .prod-btn p,
+    .gtk-btn p{
+        font-size: 36px;
+        height: 44px;
+    }
+
+    .get-to-know, 
+    .get-to-know img{
+        width: 100%;
+        height: 600px;
+    }
+    
+    .gtk-texts h3{
+        font-size: 28px;
+        margin: 0 auto 10px auto;
+        height: 36px;
+    }
+
+    /********FOOTER*******/
+
+    .footer{
+        width:100%;
+        height: 150px;
+        background-color: var(--yellow);
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 18px;
+    }
+
+    .footer-container{
+        width: 100%;
+        height: 150px;
+        margin: 0 50px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .instagram{
+        margin: 0;
+        position: static;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .instagram svg{
+        width: 30px;
+        height: 30px;
+        margin: 0 15px 0 0;
+    }
+
+    .footer-credits{
+        justify-self: auto;
+        margin: 0;
+    }
+
+    /********************************/
+
+    /******************ABOUT US PAGE********************/
+
+    .about-main-section{
+        width: 720px;
+        height: 880px;
+    }
+
+    /********************************/
+
+    /******************NEW ARRIVAL AND VINYL RECORDS PAGE********************/
+
+    .na-rows{
+        width: 720px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 40px auto 0 auto;
+    }
+
+    .add-to-cart-btn,
+    .add-to-cart-btn:visited{
+        width: 200px;
+        height: 50px;
+
+        margin: 10px 0 80px 0;
+    }
+
+    .add-to-cart-btn p{
+        font-size: 36px;
+        height: 44px;
+    }
+
+
+    /********************************/
+
+    /******************CART PAGE********************/
+
+    .cart-container{
+        width:720px;
+        height: 580px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    
+        margin: 75px auto;
+    }
+
+    .cart-items{
+        width:300px;
+        height: 580px;
+        overflow-y: scroll;
+    
+        border-style:solid;
+        border-color: var(--dark-green);
+        border-width: 0 2px 0 0;
+    
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 10%,
+                    rgba(255, 255, 255, 1) 90%,
+                    rgba(255, 255, 255, 0) 100%);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-product{
+        width:200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    
+        margin: 50px auto 0 auto;
+    }
+
+    .cart-container .cart-product:nth-of-type(1){
+        margin: 100px 0 0 0;
+    }
+
+    .cart-container .cart-product:nth-of-type(3){
+        margin: 50px 0 100px 0;
+    }
+
+    .cart-product img{
+        width: 200px;
+        border-radius: 40px;
+    
+        margin: 0 auto 10px auto;
+    }
+
+    .cart-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 18px;
+        
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .cart-check-out{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+
+    .co-card{
+        width: 300px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 15px;
+    }
+
+    .co-card-texts p{
+        font-size: 20px;
+    }
+
+    .check-out-btn,
+    .check-out-btn:visited{
+        width: 200px;
+        height: 50px;
+        background-color: var(--dark-green);
+
+        border-radius: 15px;
+        margin: 20px 0 0 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    .check-out-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        margin: 0 auto;
+        height: 44px;
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    /********************************/
+}
+
+@media (max-width: 800px) {
+
+    .hero-nav{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-nav h1{
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 2px;
+
+        width:480px;
+    }
+
+    #product-section{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        margin: 60px auto 200px auto; 
+    }
+
+    .product-categ{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 100px 0 100px 0;
+    }
+
+    .product-categ img{
+        width: 300px;
+    }
+
+    .product-categ-texts{
+        width: 200px;
+    }
+
+    .product-categ-texts h2{
+        font-size: 36px;
+        margin: 0 auto;
+        height: 46px;
+        letter-spacing: 2px;
+        color: var(--light-gray);
+    }
+    
+    .product-categ-texts h3{
+        font-size: 18px;
+        margin: 0 auto;
+        height: 36px;
+        letter-spacing: 1px;
+        color: var(--light-gray);
+    }
+
+    .prod-btn,
+    .prod-btn:visited,
+    .gtk-btn,
+    .gtk-btn:visited{
+        width: 200px;
+        height: 50px;
+
+        margin: 10px 0;
+    }
+
+    .prod-btn p,
+    .gtk-btn p{
+        font-size: 36px;
+        height: 44px;
+    }
+
+    .get-to-know, 
+    .get-to-know img{
+        width: 100%;
+        height: 600px;
+    }
+    
+    .gtk-texts h3{
+        font-size: 28px;
+        margin: 0 auto 10px auto;
+        height: 36px;
+    }
+
+    /********FOOTER*******/
+
+    .footer{
+        width:100%;
+        height: 150px;
+        background-color: var(--yellow);
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 18px;
+    }
+
+    .footer-container{
+        width: 100%;
+        height: 150px;
+        margin: 0 50px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram{
+        margin: 0;
+        position: static;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .instagram svg{
+        width: 30px;
+        height: 30px;
+        margin: 0 15px 0 0;
+    }
+
+    .footer-credits{
+        justify-self: auto;
+        margin: 20px 0 0 0;
+    }
+
+    /********************************/
+
+    /******************ABOUT US PAGE********************/
+
+    .about-main-section{
+        width: 500px;
+        height: 880px;
+    }
+
+    .about-text p{
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    /********************************/
+
+    /******************NEW ARRIVAL AND VINYL RECORDS PAGE********************/
+
+    .na-rows{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 40px auto 0 auto;
+    }
+
+    .na-product img{
+        width: 225px;
+        border-radius: 55px;
+    
+        margin: 0 0 10px 0;
+    }
+
+    .na-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16px;
+        
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .add-to-cart-btn,
+    .add-to-cart-btn:visited{
+        width: 200px;
+        height: 50px;
+
+        margin: 10px 0 80px 0;
+    }
+
+    .add-to-cart-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        height: 44px;
+    }
+
+
+    /********************************/
+
+    /******************CART PAGE********************/
+
+    .cart-container{
+        width:500px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    
+        margin: 75px auto;
+    }
+
+    .cart-items{
+        width:500px;
+        height: 290px;
+        overflow-y: scroll;
+    
+        border-style:solid;
+        border-color: var(--dark-green);
+        border-width: 0 0 6px 0;
+        border-radius: 0 15px 0 0;
+    
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 10%,
+                    rgba(255, 255, 255, 1) 90%,
+                    rgba(255, 255, 255, 0) 100%);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-product{
+        width:400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 30px auto 20px auto;
+    }
+
+    .cart-container .cart-product:nth-of-type(1){
+        margin: 50px 0 20px 0;
+    }
+
+    .cart-container .cart-product:nth-of-type(3){
+        margin: 30px 0 50px 0;
+    }
+
+    .cart-product img{
+        width: 200px;
+        border-radius: 40px;
+    
+        margin: 0 20px 10px auto;
+    }
+
+    .cart-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 18px;
+        
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .cart-check-out{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .co-card{
+        width: 400px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 15px;
+    }
+
+    .co-card-texts{
+        width: 360px;
+        height: 100px;
+        overflow-y: scroll;
+
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 5%,
+                    rgba(255, 255, 255, 1) 90%,
+                    rgba(255, 255, 255, 0) 100%);
+    }
+
+    .co-card-texts::-webkit-scrollbar {
+        width: 10px;
+    
+        background-color: var(--yellow);
+      }
+    
+    .co-card-texts::-webkit-scrollbar-thumb {
+        background-color: var(--white);
+      }
+
+    .co-card-texts p{
+        font-size: 16px;
+    }
+
+    .cart-container .co-card-texts p:nth-of-type(6){
+        margin: 0 0 20px 0;
+    }
+
+    .check-out-btn,
+    .check-out-btn:visited{
+        width: 200px;
+        height: 50px;
+        background-color: var(--dark-green);
+
+        border-radius: 15px;
+        margin: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    .check-out-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        margin: 0 auto;
+        height: 44px;
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    /********************************/
+}
+
+@media (max-width: 600px) {
+
+    .logo{
+        height: 100px;
+        margin: auto;
+    
+        padding-left: 75px;
+    }
+
+    .hero-nav{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-nav h1{
+        font-size: 36px;
+        line-height: 36px;
+        letter-spacing: 2px;
+
+        width:360px;
+    }
+
+    .hero-img{
+        height: 500px;
+        object-fit: cover;
+    
+        margin: 0 0 40px 0;
+    }
+
+    #product-section{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        margin: 60px auto 200px auto; 
+    }
+
+    .product-categ{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 100px 0 100px 0;
+    }
+
+    .product-categ:nth-of-type(2) .product-categ-texts{
+        order: 2;
+        margin: 60px 0 0 0;
+    }
+
+    .product-categ img{
+        width: 360px;
+    }
+
+    .product-categ-texts{
+        width: 200px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-categ-texts h2{
+        font-size: 36px;
+        margin: 0 auto;
+        height: 46px;
+        letter-spacing: 2px;
+        color: var(--light-gray);
+    }
+    
+    .product-categ-texts h3{
+        font-size: 18px;
+        margin: 0 auto;
+        height: 36px;
+        letter-spacing: 1px;
+        color: var(--light-gray);
+    }
+
+    .prod-btn,
+    .prod-btn:visited,
+    .gtk-btn,
+    .gtk-btn:visited{
+        width: 200px;
+        height: 50px;
+
+        margin: 10px 0;
+    }
+
+    .prod-btn p,
+    .gtk-btn p{
+        font-size: 36px;
+        height: 44px;
+    }
+
+    .get-to-know, 
+    .get-to-know img{
+        width: 100%;
+        height: 400px;
+    }
+    
+    .gtk-texts h3{
+        font-size: 24px;
+        margin: 0 auto 10px auto;
+        height: 36px;
+    }
+
+    /********FOOTER*******/
+
+    .footer{
+        width:100%;
+        height: 150px;
+        background-color: var(--yellow);
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16px;
+    }
+
+    .footer-container{
+        width: 100%;
+        height: 150px;
+        margin: 0 50px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram{
+        margin: 0;
+        position: static;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .instagram svg{
+        width: 30px;
+        height: 30px;
+        margin: 0 15px 0 0;
+    }
+
+    .footer-credits{
+        justify-self: auto;
+        margin: 20px 0 0 0;
+    }
+
+    /********************************/
+
+    /******************ABOUT US PAGE********************/
+
+    .about-main-section{
+        width: 360px;
+        height: 880px;
+    }
+
+    .about-text p{
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    /********************************/
+
+    /******************NEW ARRIVAL AND VINYL RECORDS PAGE********************/
+
+    .na-rows{
+        width: 360px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 40px auto 0 auto;
+    }
+
+    .na-product img{
+        width: 300px;
+        border-radius: 75px;
+    
+        margin: 0 0 10px 0;
+    }
+
+    .na-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 18px;
+        
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .add-to-cart-btn,
+    .add-to-cart-btn:visited{
+        width: 200px;
+        height: 50px;
+
+        margin: 10px 0 80px 0;
+    }
+
+    .add-to-cart-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        height: 44px;
+    }
+
+
+    /********************************/
+
+    /******************CART PAGE********************/
+
+    .cart-container{
+        width:360px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    
+        margin: 75px auto;
+    }
+
+    .cart-items{
+        width:360px;
+        height: 290px;
+        overflow-y: scroll;
+    
+        border-style:solid;
+        border-color: var(--dark-green);
+        border-width: 0 0 6px 0;
+        border-radius: 0 15px 0 0;
+    
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 10%,
+                    rgba(255, 255, 255, 1) 90%,
+                    rgba(255, 255, 255, 0) 100%);
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-product{
+        width:100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 30px 0 20px 0;
+    }
+
+    .cart-container .cart-product:nth-of-type(1){
+        margin: 50px 0 20px 0;
+    }
+
+    .cart-container .cart-product:nth-of-type(3){
+        margin: 30px 0 50px 0;
+    }
+
+    .cart-product img{
+        width: 100px;
+        border-radius: 20px;
+    
+        margin: 0 20px 10px 50px;
+    }
+
+    .cart-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+        
+        letter-spacing: 1px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .cart-check-out{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .co-card{
+        width: 300px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 15px;
+    }
+
+    .co-card-texts{
+        width: 260px;
+        height: 100px;
+        overflow-y: scroll;
+
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 5%,
+                    rgba(255, 255, 255, 1) 90%,
+                    rgba(255, 255, 255, 0) 100%);
+    }
+
+    .co-card-texts::-webkit-scrollbar {
+        width: 10px;
+    
+        background-color: var(--yellow);
+      }
+    
+    .co-card-texts::-webkit-scrollbar-thumb {
+        background-color: var(--white);
+      }
+
+    .co-card-texts p{
+        font-size: 16px;
+    }
+
+    .cart-container .co-card-texts p:nth-of-type(6){
+        margin: 0 0 20px 0;
+    }
+
+    .check-out-btn,
+    .check-out-btn:visited{
+        width: 200px;
+        height: 50px;
+        background-color: var(--dark-green);
+
+        border-radius: 15px;
+        margin: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    .check-out-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        margin: 0 auto;
+        height: 44px;
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    /********************************/
+}
+
+@media (max-width: 480px) {
+
+    .logo{
+        height: 75px;
+        margin: auto;
+    
+        padding-left: 50px;
+    }
+
+    .logo-img{
+        height: 75px;
+    }
+
+    .cart svg{
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        fill: var(--dark-gray);
+        stroke: var(--dark-gray)!important;
+    }
+
+    /*******HAMBURGER MENU*******/
+
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 20;
+
+    margin: 7px 0 0 25px;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--dark-gray);
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -300%;
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 100px 0;
+    list-style: none;
+    background-color: var(--dark-green);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+    border-radius: 0 0 55px 0;
+
+    z-index: 10;
+  }
+
+  .menu__item {
+    display: block;
+    padding: 12px 50px;
+    color: var(--ash-white);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: var(--green);
+  }
+
+/********************************/
+
+    .hero-nav{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-nav h1{
+        font-size: 28px;
+        line-height: 28px;
+        letter-spacing: 1px;
+
+        width:300px;
+    }
+
+    .down-btn{
+        font-size: 36px;
+        margin: -10px auto;
+        height: 56px;
+    }
+
+    .hero-img{
+        height: 400px;
+        object-fit: cover;
+    
+        margin: 0 0 40px 0;
+    }
+
+    #product-section{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        margin: 60px auto 200px auto; 
+    }
+
+    .product-categ{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 100px 0 100px 0;
+    }
+
+    .product-categ:nth-of-type(2) .product-categ-texts{
+        order: 2;
+        margin: 50px 0 0 0;
+    }
+
+    .product-categ img{
+        width: 300px;
+    }
+
+    .product-categ-texts{
+        width: 200px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-categ-texts h2{
+        font-size: 36px;
+        margin: 0 auto;
+        height: 46px;
+        letter-spacing: 2px;
+        color: var(--light-gray);
+    }
+    
+    .product-categ-texts h3{
+        font-size: 18px;
+        margin: 0 auto;
+        height: 36px;
+        letter-spacing: 1px;
+        color: var(--light-gray);
+    }
+
+    .prod-btn,
+    .prod-btn:visited,
+    .gtk-btn,
+    .gtk-btn:visited{
+        width: 180px;
+        height: 40px;
+
+        margin: 10px 0;
+    }
+
+    .prod-btn p,
+    .gtk-btn p{
+        font-size: 28px;
+        height: 36px;
+    }
+
+    .get-to-know, 
+    .get-to-know img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .gtk-texts h3{
+        font-size: 20px;
+        margin: 0 auto 10px auto;
+        height: 48px;
+        width: 280px;
+        text-align: center;
+    }
+
+    /********FOOTER*******/
+
+    .footer{
+        width:100%;
+        height: 150px;
+        background-color: var(--yellow);
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16px;
+    }
+
+    .footer-container{
+        width: 100%;
+        height: 150px;
+        margin: 0 50px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram{
+        margin: 0;
+        position: static;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .instagram svg{
+        width: 30px;
+        height: 30px;
+        margin: 0 15px 0 0;
+    }
+
+    .footer-credits{
+        justify-self: auto;
+        margin: 20px 0 0 0;
+        text-align: center;
+        width: 200px;
+    }
+
+    /********************************/
+
+    /******************ABOUT US PAGE********************/
+
+    .about-main-section{
+        width: 300px;
+        height: 880px;
+    }
+
+    .about-text p{
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    /********************************/
+
+    /******************NEW ARRIVAL AND VINYL RECORDS PAGE********************/
+
+    .na-rows{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 40px auto 0 auto;
+    }
+
+    .na-product img{
+        width: 225px;
+        border-radius: 55px;
+    
+        margin: 0 0 10px 0;
+    }
+
+    .na-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16px;
+        
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .add-to-cart-btn,
+    .add-to-cart-btn:visited{
+        width: 200px;
+        height: 50px;
+
+        margin: 10px 0 80px 0;
+    }
+
+    .add-to-cart-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        height: 44px;
+    }
+
+
+    /********************************/
+
+    /******************CART PAGE********************/
+
+    .cart-container{
+        width:300px;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    
+        margin: 75px auto;
+    }
+
+    .cart-items{
+        width:300px;
+        height: 290px;
+        overflow-y: scroll;
+    
+        border-style:solid;
+        border-color: var(--dark-green);
+        border-width: 0 0 6px 0;
+        border-radius: 0 15px 0 0;
+    
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 10%,
+                    rgba(255, 255, 255, 1) 90%,
+                    rgba(255, 255, 255, 0) 100%);
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-product{
+        width:100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 30px 0 20px 0;
+    }
+
+    .cart-container .cart-product:nth-of-type(1){
+        margin: 50px 0 20px 0;
+    }
+
+    .cart-container .cart-product:nth-of-type(3){
+        margin: 30px 0 50px 0;
+    }
+
+    .cart-product img{
+        width: 100px;
+        border-radius: 20px;
+    
+        margin: 0 20px 10px 40px;
+    }
+
+    .cart-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+        
+        letter-spacing: 1px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .cart-check-out{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .co-card{
+        width: 260px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 15px;
+    }
+
+    .co-card-texts{
+        width: 220px;
+        height: 100px;
+        overflow-y: scroll;
+
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 5%,
+                    rgba(255, 255, 255, 1) 90%,
+                    rgba(255, 255, 255, 0) 100%);
+    }
+
+    .co-card-texts::-webkit-scrollbar {
+        width: 10px;
+    
+        background-color: var(--yellow);
+      }
+    
+    .co-card-texts::-webkit-scrollbar-thumb {
+        background-color: var(--white);
+      }
+
+    .co-card-texts p{
+        font-size: 16px;
+    }
+
+    .cart-container .co-card-texts p:nth-of-type(6){
+        margin: 0 0 20px 0;
+    }
+
+    .check-out-btn,
+    .check-out-btn:visited{
+        width: 200px;
+        height: 50px;
+        background-color: var(--dark-green);
+
+        border-radius: 15px;
+        margin: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    .check-out-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        margin: 0 auto;
+        height: 44px;
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    /********************************/
+}
+
+@media (max-width: 360px) {
+
+    .logo{
+        height: 75px;
+        margin: auto;
+    
+        padding-left: 50px;
+    }
+
+    .logo-img{
+        height: 75px;
+    }
+
+    .cart svg{
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        fill: var(--dark-gray);
+        stroke: var(--dark-gray)!important;
+    }
+
+    /*******HAMBURGER MENU*******/
+
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: absolute;
+    width: 25px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 20;
+
+    margin: 7px 0 0 25px;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: var(--dark-gray);
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -300%;
+    width: 260px;
+    height: auto;
+    margin: 0;
+    padding: 100px 0;
+    list-style: none;
+    background-color: var(--dark-green);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+    border-radius: 0 0 55px 0;
+
+    z-index: 10;
+  }
+
+  .menu__item {
+    display: block;
+    padding: 12px 50px;
+    color: var(--ash-white);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: var(--green);
+  }
+
+/********************************/
+
+    .hero-nav{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-nav h1{
+        font-size: 26px;
+        line-height: 26px;
+        letter-spacing: 1px;
+
+        width:280px;
+    }
+
+    .down-btn{
+        font-size: 36px;
+        margin: -10px auto;
+        height: 56px;
+    }
+
+    .hero-img{
+        height: 300px;
+        object-fit: cover;
+    
+        margin: 0 0 40px 0;
+    }
+
+    #product-section{
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        margin: 60px auto 200px auto; 
+    }
+
+    .product-categ{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 100px 0 50px 0;
+    }
+
+    .product-categ:nth-of-type(2) .product-categ-texts{
+        order: 2;
+        margin: 40px 0 0 0;
+    }
+
+    .product-categ img{
+        width: 240px;
+    }
+
+    .product-categ-texts{
+        width: 200px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-categ-texts h2{
+        font-size: 24px;
+        margin: 0 auto;
+        height: 36px;
+        letter-spacing: 2px;
+        color: var(--light-gray);
+    }
+    
+    .product-categ-texts h3{
+        font-size: 14px;
+        margin: 0 auto;
+        height: 26px;
+        letter-spacing: 1px;
+        color: var(--light-gray);
+    }
+
+    .prod-btn,
+    .prod-btn:visited,
+    .gtk-btn,
+    .gtk-btn:visited{
+        width: 160px;
+        height: 40px;
+
+        margin: 5px 0;
+    }
+
+    .prod-btn p,
+    .gtk-btn p{
+        font-size: 24px;
+        height: 30px;
+    }
+
+    .get-to-know, 
+    .get-to-know img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .gtk-texts h3{
+        font-size: 16px;
+        margin: 0 auto 5px auto;
+        height: 48px;
+        width: 200px;
+        text-align: center;
+    }
+
+    /********FOOTER*******/
+
+    .footer{
+        width:100%;
+        height: 150px;
+        background-color: var(--yellow);
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+    }
+
+    .footer-container{
+        width: 100%;
+        height: 150px;
+        margin: 0 50px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram{
+        margin: 0;
+        position: static;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .instagram svg{
+        width: 30px;
+        height: 30px;
+        margin: 0 15px 0 0;
+    }
+
+    .footer-credits{
+        justify-self: auto;
+        margin: 20px 0 0 0;
+        text-align: center;
+        width: 180px;
+    }
+
+    /********************************/
+
+    /******************ABOUT US PAGE********************/
+
+    .about-main-section{
+        width: 260px;
+        height: 880px;
+    }
+
+    .about-text p{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .about-img{
+        border-radius: 50px;
+    
+        margin: 60px 0;
+    }
+
+    /********************************/
+
+    /******************NEW ARRIVAL AND VINYL RECORDS PAGE********************/
+
+    .na-rows{
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 0 auto;
+    }
+
+    .na-product img{
+        width: 225px;
+        border-radius: 55px;
+    
+        margin: 0 0 10px 0;
+    }
+
+    .na-main-section h1{
+        font-size: 36px;
+        letter-spacing: 2px;
+    
+        margin: 0;
+        padding: 50px 0;
+    }
+
+    .na-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+        
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .add-to-cart-btn,
+    .add-to-cart-btn:visited{
+        width: 160px;
+        height: 40px;
+
+        margin: 10px 0 80px 0;
+    }
+
+    .add-to-cart-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 24px;
+        height: 30px;
+    }
+
+
+    /********************************/
+
+    /******************CART PAGE********************/
+
+    .cart-container{
+        width:280px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    
+        margin: 75px auto;
+    }
+
+    .cart-items{
+        width:280px;
+        height: 175px;
+        overflow-y: scroll;
+    
+        border-style:solid;
+        border-color: var(--dark-green);
+        border-width: 0 0 6px 0;
+        border-radius: 0 15px 0 0;
+    
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 10%,
+                    rgba(255, 255, 255, 1) 90%,
+                    rgba(255, 255, 255, 0) 100%);
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-product{
+        width:100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        margin: 30px 0 20px 0;
+    }
+
+    .cart-container .cart-product:nth-of-type(1){
+        margin: 40px 0 20px 0;
+    }
+
+    .cart-container .cart-product:nth-of-type(3){
+        margin: 30px 0 50px 0;
+    }
+
+    .cart-product img{
+        width: 100px;
+        border-radius: 20px;
+    
+        margin: 0 20px 10px 30px;
+    }
+
+    .cart-product p{
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 14px;
+        
+        letter-spacing: 1px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .cart-check-out{
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .co-card{
+        width: 230px;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 15px;
+    }
+
+    .co-card-texts{
+        width: 200px;
+        height: 150px;
+        overflow-y: scroll;
+
+        -webkit-mask: linear-gradient(to bottom,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 1) 0%,
+                    rgba(255, 255, 255, 1) 100%,
+                    rgba(255, 255, 255, 0) 100%);
+    }
+
+    .co-card-texts::-webkit-scrollbar {
+        width: 10px;
+    
+        background-color: var(--yellow);
+      }
+    
+    .co-card-texts::-webkit-scrollbar-thumb {
+        background-color: var(--white);
+      }
+
+    .co-card-texts p{
+        font-size: 14px;
+    }
+
+    .cart-container .co-card-texts p:nth-of-type(6){
+        margin: 0 0 10px 0;
+    }
+
+    .check-out-btn,
+    .check-out-btn:visited{
+        width: 160px;
+        height: 40px;
+        background-color: var(--dark-green);
+
+        border-radius: 15px;
+        margin: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .check-out-btn p{
+        font-family: 'Bebas Neue', sans-serif;
+        margin: 0 auto;
+
+        font-size: 24px;
+        height: 30px;
+    }
+
+    /********************************/
+}
